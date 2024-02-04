@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
-    const select = useSelector((state)=>state.MyCarts)
+    const select = useSelector((state) => state.MyCarts)
 
     return (
         <>
@@ -14,6 +14,7 @@ const Navbar = () => {
                     <Link className='links' to="/">Home</Link>
                     <Link className='links' to="/cart">Cart</Link>
                     <Link className='links' to="/about">About</Link>
+                    <Link className='links' to="create">Create User</Link>
                 </div>
                 <h3>Total : {select.length}</h3>
             </div>

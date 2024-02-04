@@ -1,3 +1,10 @@
+.myclass{
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  
+}
 .wraperClass{
   text-align: center;
   justify-content: space-around;

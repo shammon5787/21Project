@@ -6,6 +6,8 @@ import Carts from './components/pages/Carts'
 import Navbar from './components/navbar/Navbar'
 import { Provider } from 'react-redux'
 import store from './components/store/store'
+import About from './components/pages/About'
+import Create from './components/pages/Create'
 
 function App() {
 
@@ -17,6 +19,8 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/cart' element={<Carts />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/create' element={<Create />} />
           </Routes>
         </BrowserRouter>
       </Provider>
