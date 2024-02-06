@@ -34,6 +34,7 @@
         border-radius: 5px;
         margin: 10px;
       }
+      
       .MyCarts{
         background-color: rgb(237, 245, 245);
         margin: 20px;
@@ -41,6 +42,9 @@
         width: auto;
         border-radius: 6px;
         object-fit: cover;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
       }
       .imges{
         margin-top: 10px;
