@@ -10,7 +10,7 @@ const Carts = () => {
     dispech(remove(prod))
   }
   
-  return (
+  return (  
     <div className='wraperClass'>
             {
                 select.map((prod) => (
